@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Asistencia</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button [routerLink]="['/qr']">
+    <ion-icon slot="" name="star"></ion-icon>
+    Generar codigo
+  </ion-button>
+  <ion-button [routerLink]="['/camera']">
+    <ion-icon slot="" name="camera"></ion-icon>
+    Desplegar camara
+  </ion-button>
+
+  
+  <p></p>
+  <p></p>
+  <ion-img src="assets/img/logo-fondoazul.jpg "></ion-img>
+
+  <ion-progress-bar type="indeterminate"></ion-progress-bar>
+  <p></p>
+  
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color ="primary">
+    <ion-button slot="end">
+      <ion-button [routerLink]="['/login']">Cerrar sesion</ion-button>
+    </ion-button>
+
+  </ion-toolbar>
+</ion-footer>
+
